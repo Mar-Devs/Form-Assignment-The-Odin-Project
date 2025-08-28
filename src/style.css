@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.image-bar{
+    height: 100vh;
+    width: 30%;
+    background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+#img{
+    color: white;
+    height: 80%;
+    width: 100px;
+}
+
+.odin{
+    font-family: "Norse-Bold";
+    color:white;
+    font-size: 80px;
+}
+
+.logo-bar{
+    background-color: rgb(0,0,0,0.5);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+
+.credit{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.credit-names{
+    text-decoration: underline;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.credit, a:visited{
+    color: white;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(./assets/Norse-Bold.otf);
+    font-style: normal;
+}
+
+.form-container{
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    width: 55ch;
+    display: flex;
+    flex-direction: column;
+}
+
+.now, .know{
+    font-style: italic;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    box-shadow: 5px 10px 5px lightgray;
+    padding: 20px;
+    width: 100vw;
+}
+
+.labels_1{
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    gap: 80px;
+}
+
+.fname{
+    display: flex;
+    flex-direction: column;
+}
+
+.lname{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels_2{
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    gap: 80px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone_number{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels_3{
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    gap: 80px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm_password{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input:focus{
+    outline-color: blue;
+}
+
+input:invalid{
+    outline-color: red;
+}
+
+input:valid{
+    outline-color: green;
+}
+
+label{
+    font-size: 10px;
+}
+
+.text{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
