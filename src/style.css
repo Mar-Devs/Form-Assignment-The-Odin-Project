@@ -73,11 +73,11 @@ a:link{
 }
 
 .form-container{
-    background-color: white;
+    background-color: whitesmoke;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    width: 55ch;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -96,6 +96,7 @@ a:link{
     box-shadow: 5px 10px 5px lightgray;
     padding: 20px;
     width: 100vw;
+    background-color: white;
 }
 
 .labels_1{
@@ -175,6 +176,7 @@ label{
     padding-right: 40px;
     padding-top: 40px;
     padding-bottom: 0px;
+    width: 55ch;
 }
 
 .button{
